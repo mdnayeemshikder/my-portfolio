@@ -8,6 +8,10 @@
   font-weight: bold;
   font-style: normal;
 }
+header {
+  background-color: rgb(255, 248, 243);
+  padding-top: 40px;
+}
 
 /* header-navmenu-style */
 nav {
@@ -57,7 +61,50 @@ ul li a {
   border-style: none;
 }
 
-.nev-btn:hover{
+.nev-btn:hover {
   background: rgb(124, 52, 0);
 }
 /* header-navmenu-style */
+
+/* ==================================================
+===================================================== */
+
+/* hero section */
+
+.hero {
+  background-image: url(images/header_bg.png), url(images/developer.png);
+  background-repeat: no-repeat;
+  background-position: right bottom, left top;
+  margin: 0 0 0 23px;
+}
+.text-hero {
+  max-width: 585px;
+}
+.hero-div {
+  display: flex;
+  align-items: center;
+  margin: 0 40px 0 230px;
+  justify-content: space-between;
+}
+.wlcm-text {
+  color: rgb(71, 71, 71);
+  font-size: 45px;
+  font-weight: 600;
+  line-height: 61px;
+}
+
+.hero-mainfont {
+  color: rgb(24, 24, 24);
+  font-size: 85px;
+  font-weight: 700;
+  line-height: 116px;
+}
+
+.hero-pera {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 20px 0 30px 0;
+}
+/* hero section */
