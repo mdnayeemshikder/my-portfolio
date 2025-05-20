@@ -108,3 +108,59 @@ ul li a {
   margin: 20px 0 30px 0;
 }
 /* hero section */
+
+/* about us section */
+.about {
+  background-color: #fff8f3;
+  max-width: 1140px;
+  margin: 130px auto;
+  padding: 130px 155px;
+  border-radius: 10px;
+}
+
+.sub-about {
+  display: grid;
+  gap: 30px;
+  padding: 20px;
+  border: 1px solid rgb(0, 0, 0);
+  background: rgb(255, 255, 255);
+}
+
+.section-titel {
+  color: rgb(24, 24, 24);
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: center;
+}
+
+.discripsiton {
+  color: rgb(117, 117, 117);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+.address {
+  display: flex;
+  justify-content: space-around;
+}
+
+.address-cart {
+  justify-items: center;
+}
+
+.address-pera {
+  color: rgb(117, 117, 117);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.address-titel {
+  color: rgb(117, 117, 117);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+/* about us section */
