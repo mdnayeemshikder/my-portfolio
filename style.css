@@ -13,6 +13,11 @@ header {
   padding-top: 40px;
 }
 
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
 /* header-navmenu-style */
 nav {
   display: flex;
@@ -75,7 +80,6 @@ ul li a {
   background-image: url(images/header_bg.png), url(images/developer.png);
   background-repeat: no-repeat;
   background-position: right bottom, left top;
-  margin: 0 0 0 23px;
 }
 .text-hero {
   max-width: 585px;
@@ -112,7 +116,6 @@ ul li a {
 /* about us section */
 .about {
   background-color: #fff8f3;
-  max-width: 1140px;
   margin: 130px auto;
   padding: 130px 155px;
   border-radius: 10px;
@@ -163,4 +166,69 @@ ul li a {
   font-weight: 700;
   line-height: 30px;
 }
+
+.what-i-do {
+  display: grid;
+  gap: 30px;
+}
+.what-i-do-cart {
+  display: flex;
+  gap: 24px;
+}
+
+.single-cart {
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+  padding: 30px;
+  display: grid;
+  gap: 20px;
+}
+
+.sigle-c-p {
+  color: rgb(117, 117, 117);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding-top: 20px;
+}
+
+.sigle-c-h {
+  color: rgb(24, 24, 24);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 27px;
+}
 /* about us section */
+
+/* A summary of My Resume */
+.resume {
+  padding: 130px 0 130px 0;
+  display: grid;
+}
+
+.resume-m-h {
+  color: rgb(71, 71, 71);
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 41px;
+  padding-bottom: 30px;
+}
+.resume-h {
+  color: rgb(71, 71, 71);
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  padding-bottom: 10px;
+}
+.resume-s-h {
+  color: rgb(117, 117, 117);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 27px;
+}
+.summary-titel{
+  
+}
+
+/* A summary of My Resume */
